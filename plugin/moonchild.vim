@@ -19,9 +19,9 @@ function! s:escape()
   endif
 endfunction
 
-command! MoonChildEscape call <SID>moonchild_escape()
+command! MoonChild call <SID>moonchild()
 
-function! s:moonchild_escape()
+function! s:moonchild()
   let status = get(b:, 'moonchild', 0)
   let b:moonchild = status ? 0 : 1
   echo b:moonchild ? 'escape start!' : 'be caught ...'
