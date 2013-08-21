@@ -12,7 +12,7 @@ function! s:escape()
     :w
     let b:moonchild_counter = get(b:, 'moonchild_counter', 0) + 1
     if b:moonchild_counter % 3 == 0
-      :echo 'keep an eye on the vim ♪'
+      :echo '(=ΦωΦ) hum hum hum hum 〜♪'
     else
       :echo 'saved! saved! saved!'
     endif
